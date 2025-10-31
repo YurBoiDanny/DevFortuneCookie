@@ -20,7 +20,7 @@
 
 Built for **DevDay**; ships with a slick UI (cookie crack + confetti), a deterministic endpoint for safe caching, and ready‑to‑run scripts.
 
----
+## [Dev Presentation](https://gamma.app/docs/Sidecar-in-Practice-mslks37wmfj4x29)
 
 ## ✨ Highlights
 
