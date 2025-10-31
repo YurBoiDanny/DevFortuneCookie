@@ -31,3 +31,23 @@ services:
       - app
     ports:
       - "3000:80"            # host:container
+  
+  ngrok:
+    image: ngrok/ngrok:alpine
+    container_name: ngrok
+    restart: unless-stopped
+    # Tunnel directly to the frontend container (Nginx serves the SPA on port 80)
+    command:
+      - "http"
+      - "frontend:80"
+    environment:
+      # put your real token in .env as NGROK_AUTHTOKEN=xxxxx
+      NGROK_AUTHTOKEN: ${NGROK_AUTHTOKEN}
+    depends_on:
+      - frontend
+    # Optional: expose the local inspection UI
+    ports:
+      - "4040:4040"   # http://localhost:4040 -> traffic inspector
+    profiles: ["tunnel"] # start only when you need it: `--profile tunnel`
+  
+

@@ -85,6 +85,8 @@ Built for **DevDay**; ships with a slick UI (cookie crack + confetti), a determi
 docker compose up -d --build
 ```
 
+> For Audience Participation: `docker compose --profile tunnel up -d ngrok`
+
 Open the UI:
 
 - **Sidecar:** <http://localhost:3000/>
