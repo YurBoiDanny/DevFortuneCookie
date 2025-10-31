@@ -1,5 +1,23 @@
 # Dev Fortune Cookie — Sidecar in Practice 🍪⚙️
 
+<!--toc:start-->
+
+- [Dev Fortune Cookie — Sidecar in Practice 🍪⚙️](#dev-fortune-cookie-sidecar-in-practice-🍪️)
+  - [✨ Highlights](#highlights)
+  - [🧱 Architecture](#🧱-architecture)
+  - [📂 Repo Structure (high level)](#📂-repo-structure-high-level)
+  - [🚀 Quick Start](#🚀-quick-start)
+  - [🧪 Demo Scripts (optional)](#🧪-demo-scripts-optional)
+  - [🔌 Endpoints (App)](#🔌-endpoints-app)
+  - [🌐 Frontend (CORS‑free)](#🌐-frontend-corsfree)
+  - [⚙️ Sidecar Nginx (key bits)](#️-sidecar-nginx-key-bits)
+  - [🧩 Local Dev Tips](#🧩-local-dev-tips)
+  - [🧰 Favorite TUIs (optional slide/demo)](#🧰-favorite-tuis-optional-slidedemo)
+  - [🐞 Troubleshooting](#🐞-troubleshooting)
+  - [📝 License](#📝-license)
+  - [🙌 Credits](#🙌-credits) - [Appendix — Handy one‑liners](#appendix-handy-oneliners)
+  <!--toc:end-->
+
 Built for **DevDay**; ships with a slick UI (cookie crack + confetti), a deterministic endpoint for safe caching, and ready‑to‑run scripts.
 
 ---
